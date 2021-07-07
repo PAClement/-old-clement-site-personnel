@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body{
+    background-color: #111;
+}
+
+p{
+    color:#2e7d32;
+    font-size: 1rem;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+}
+
+p span{
+    font-weight: 400;
+}

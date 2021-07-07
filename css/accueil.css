@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+
+body{
+    background:url('../img/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.main--title{
+    text-align: center;
+    font-family: 'Fenix', serif;
+
+    color:white;
+    font-size: 5rem;
+}
+
+.title-contain{
+    display: flex;
+    justify-content: center;
+}
+
+.title-feature{
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+.main--contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 5% 0 0 0;
+}
+
+.button--contain{
+    display: flex;
+    justify-content: space-around;
+
+    width: 75%;
+    margin: 10% 0 0 0;
+}
+
+a{
+    font-weight: 600;
+    transition: 0.4s all;
+}
+
+a:hover{
+    font-weight: bold;
+    color: white;
+    transition: 0.4s all;
+}
+
+/*--------===NAV===--------*/
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	font-family: 'Jura', sans-serif;;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 2rem;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+/* Effect 14: border switch */
+.button--menu a {
+	padding: 10px 20px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.button--menu a::before,
+.button--menu a::after {
+	position: absolute;
+	width: 80px;
+	height: 3px;
+	background: #b71c1c;
+	content: '';
+	opacity: 0.4;
+	transition: all 0.3s;
+	pointer-events: none;
+}
+
+.button--menu a::before {
+	top: 0;
+	left: 0;
+	transform: rotate(90deg);
+	transform-origin: 0 0;
+}
+
+.button--menu a::after {
+	right: 0;
+	bottom: 0;
+	transform: rotate(90deg);
+	transform-origin: 100% 0;
+}
+
+.button--menu a:hover::before,
+.button--menu a:hover::after,
+.button--menu a:focus::before,
+.button--menu a:focus::after {
+	opacity: 1;
+}
+
+.button--menu a:hover::before,
+.button--menu a:focus::before {
+	left: 50%;
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.button--menu a:hover::after,
+.button--menu a:focus::after {
+	right: 50%;
+	transform: rotate(0deg) translateX(50%);
+}

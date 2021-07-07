@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    background:url('../img/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.portfolio--title{
+    text-align: center;
+    font-family: 'Fenix', serif;
+
+    color:white;
+    font-size: 5rem;
+    
+}
+
+.title-feature{
+    font-family: 'Zilla Slab Highlight', cursive;
+}

@@ -23,3 +23,220 @@ body{
 .title-feature{
     font-family: 'Zilla Slab Highlight', cursive;
 }
+
+/*-----------------------------------------------------*/
+
+section{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 8% 0 0 0;
+
+}
+
+article{
+    height:auto;
+    width: 15%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+article:nth-child(2n){
+    height: auto;
+    width: 50%;
+
+    border-radius: 10px;
+}
+
+.info--profil-picture{
+    background: url('../img/moi.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    width:100% ;
+}
+
+/*---------------info perso*-------------------------*/
+
+.info-perso-tag-title{
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.info-perso-tag{
+    text-align: left;
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    margin: 0;
+    font-size: 1.2rem;
+
+}
+
+
+/*--------------------- INFO RESEAU SOCIAUX ----------------*/ 
+
+.info--reseau{
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size: 2.5rem;
+    text-align: center;
+
+    font-weight: bold;
+    text-shadow: 2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000;
+}
+
+.info--reseau-contain{
+    margin: 10px;
+
+    height: auto;
+    width: auto;
+
+}
+
+.info--reseau-name{
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size:1rem;
+    text-align: center;
+
+    margin: 0;
+    transition: 0.4s all;
+}
+
+.info--reseau-url{
+    font-family: 'Jura', sans-serif;
+
+    color:gray;
+    font-size:1rem;
+    text-align: center;
+
+    margin: 0;
+}
+
+ a:hover .info--reseau-name{
+    color: #181717;
+    transition: 0.4s all;
+ }
+
+ a:hover .info--reseau-name:nth-child(2n){
+    color: #1DA1F2;
+    transition: 0.4s all;
+ }
+
+ a:hover .info--reseau-name:nth-child(3n){
+    color: #7289DA;
+    transition: 0.4s all;
+ }
+
+ a:hover .info--reseau-name:nth-child(4n){
+    color: #FF0000;
+    transition: 0.4s all;
+ }
+
+ a:hover .info--reseau-name:nth-child(5n){
+    color: purple;
+    transition: 0.4s all;
+ }
+
+ a:hover .info--reseau-name:nth-child(6n){
+    color: #1DA1F2;
+    transition: 0.4s all;
+ }
+
+ a:hover .info--reseau-name:nth-child(7n){
+    color: #000000;
+    transition: 0.4s all;
+ }
+
+ a:hover .info--reseau-name:nth-child(8n){
+    color: #1ED760;
+    transition: 0.4s all;
+ }
+
+ a:hover .info--reseau-name:nth-child(9n){
+    color: #4F7838;
+    transition: 0.4s all;
+ }
+
+.info--section{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info--reseau-etat{
+    border: 1px solid red;
+
+    height: 150px;
+    width: 150px;
+
+    margin: 1%;
+}
+
+
+/*----------BTN------------*/
+
+.article--btn-center{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    font-family: 'jura', sans-serif;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 10% 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+      color: white;
+  }
+  
+  .btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+  }
+  
+  .btn-1 {
+    border: 3px solid #fff;
+    color: #fff;
+  }
+  
+  /* Button 1b */
+  .btn-1b:after {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    
+      background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .btn-1b:hover,
+  .btn-1b:active {
+    color:#b71c1c;
+  }
+  
+  .btn-1b:hover:after,
+  .btn-1b:active:after {
+    height: 100%;
+  }

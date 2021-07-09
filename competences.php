@@ -18,23 +18,23 @@
     <section>
 
         <article class="punchline1">
-            <p class="p--load-competences"><strong>HTML : </strong>Je pratique le l'HTML depuis que j'ai commencé mon apprentissage, 
+            <p class="p--load-competences"><strong>HTML : </strong> Je pratique le l'HTML depuis que j'ai commencé mon apprentissage, 
             c'est la langage basique pour construire un site internet. </p>
 
-            <p class="p--load-competences"><strong>CSS :</strong>J'utilise le CSS sans framework pour le moment,
+            <p class="p--load-competences"><strong>CSS :</strong> J'utilise le CSS sans framework pour le moment,
             il est complet et même si je ne le maitrise pas dans son entièreté, je sais faire beaucoup de choses. </p>
 
-            <p class="p--load-competences"><strong>PHP :</strong>J'utilise ce langage principalement pour les 
+            <p class="p--load-competences"><strong>PHP :</strong> J'utilise ce langage principalement pour les 
             formulaire et la gestion des bases de données. </p>
 
-            <p class="p--load-competences"><strong>SQL :</strong>Je maitrise ce langage pour la communication
+            <p class="p--load-competences"><strong>SQL :</strong> Je maitrise ce langage pour la communication
             avec les bases de données. Ma connaissance du langage se limite aux requêtes de base 
             (SELECT, INSERT, UPDATE, DELETE,...).</p>
 
-            <p class="p--load-competences"><strong>JAVASCRIPT : </strong>j'ai commencé à apprendre le JavaScript il y'a peu, 
+            <p class="p--load-competences"><strong>JAVASCRIPT : </strong> j'ai commencé à apprendre le JavaScript il y'a peu, 
             Je ne connais pas entièrement ce langage, mais je maitrise les bases. </p>
 
-            <p class="p--load-competences"><strong>FIGMA :</strong>Utilisation de figma pour les créations des
+            <p class="p--load-competences"><strong>FIGMA :</strong> Utilisation de figma pour les créations des
             interfaces utilisateurs, ainsi que la disposition des éléments sur les sites.</p>
         </article>
 

@@ -13,12 +13,12 @@
 
 <body>
 
-    <p class="competence--title">- MES COMPÉT<span class="title-feature">ENCES</span> - </p>
+    <p class="tagline competence--title">- MES COMPÉT<span class="title-feature">ENCES</span> - </p>
 
     <section>
 
-        <article>
-            <p class="p--load-competences"><strong>HTML : </strong>Je pratique de l'HTML depuis que j'ai commencé mon apprentissage, 
+        <article class="punchline1">
+            <p class="p--load-competences"><strong>HTML : </strong>Je pratique le l'HTML depuis que j'ai commencé mon apprentissage, 
             c'est la langage basique pour construire un site internet. </p>
 
             <p class="p--load-competences"><strong>CSS :</strong>J'utilise le CSS sans framework pour le moment,
@@ -38,7 +38,7 @@
             interfaces utilisateurs, ainsi que la disposition des éléments sur les sites.</p>
         </article>
 
-        <article>
+        <article class="punchline2">
 
             <div class="skill-load--contain">
                 <p class="p--load">- HTML</p>
@@ -79,11 +79,18 @@
 
     </section>
 
-    <div class="article--btn-center">
+    <div class="punchline4  article--btn-center">
         <a href="accueil"><button class="btn btn-1 btn-1b">- Retourner à l'accueil -</button></a>
     </div>
 
 </body>
+
+<script>
+    ScrollReveal().reveal('.tagline' , { delay:500 });
+    ScrollReveal().reveal('.punchline1', { delay: 1000 });
+    ScrollReveal().reveal('.punchline2', { delay: 1500 });
+    ScrollReveal().reveal('.punchline4',);
+</script>
 
 
 </html>

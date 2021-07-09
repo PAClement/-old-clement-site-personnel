@@ -82,7 +82,7 @@ article{
     width: 75%;
 
     background-color: #b71c1c;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-name: jauge1;
 }
 
@@ -96,7 +96,7 @@ article{
     height: 30px;
     width: 55%;
 
-    animation-duration: 5s;
+    animation-duration: 10s;
     background-color: #01579b;
     animation-name: jauge2;
 }
@@ -112,7 +112,7 @@ article{
     height: 30px;
 
     background-color: #4a148c;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-name: jauge3;
 }
 
@@ -127,7 +127,7 @@ article{
     height: 30px;
 
     background-color: #1b5e20;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-name: jauge4;
 }
 
@@ -142,7 +142,7 @@ article{
     height: 30px;
 
     background-color: #880e4f;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-name: jauge5;
 }
 

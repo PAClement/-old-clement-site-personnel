@@ -16,7 +16,7 @@
     <p class="portfolio--title tagline">- MES PRO<span class="title-feature">JETS</span> - </p>
    
     <section>
-
+     
         <article>
             <div class="punchline1">
                 <p class="p--article">LE SELECTOR</p>
@@ -75,7 +75,8 @@
     ScrollReveal().reveal('.punchline1', { delay: 1000 });
     ScrollReveal().reveal('.punchline2', { delay: 1500 });
     ScrollReveal().reveal('.punchline3', { delay: 2000 });
-    ScrollReveal().reveal('.punchline4', { delay: 500 });
+    ScrollReveal().reveal('.punchline4',);
+
 </script>
    
 </html>

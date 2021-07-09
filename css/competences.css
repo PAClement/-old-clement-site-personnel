@@ -11,7 +11,7 @@ body{
 	background-attachment: fixed;
 }
 
-.portfolio--title{
+.competence--title{
     text-align: center;
     font-family: 'Fenix', serif;
 
@@ -23,3 +23,233 @@ body{
 .title-feature{
     font-family: 'Zilla Slab Highlight', cursive;
 }
+
+/*-----------------------------*/
+
+section{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 8% 0 0 0;
+}
+
+article{
+    width: 33%;
+    height: auto;
+}
+
+.p--load-competences{
+  text-align: left;
+  font-family: 'Jura', sans-serif;
+
+  color:white;
+  font-size: 1.5rem;
+
+  text-shadow: 2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000;
+}
+
+.p--load{
+    text-align: left;
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size: 1.5rem;
+
+    font-weight: bold;
+}
+
+.load-bar{
+
+    height: 30px;
+    width: 100%;
+
+    background-color: rgba(1,1,1,0.5);
+
+    margin: 0 0 0 5%;
+}
+
+/*-----KEYFRAME + addClasseAnimation LEVEL--------*/
+
+.code-load--bar1{
+
+    text-align: right;
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size: 1.5rem;
+
+    height: 30px;
+    width: 75%;
+
+    background-color: #b71c1c;
+    animation-duration: 5s;
+    animation-name: jauge1;
+}
+
+.code-load--bar2{
+    text-align: right;
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size: 1.5rem;
+
+    height: 30px;
+    width: 55%;
+
+    animation-duration: 5s;
+    background-color: #01579b;
+    animation-name: jauge2;
+}
+
+.code-load--bar3{
+    text-align: right;
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size: 1.5rem;
+
+    width: 40%;
+    height: 30px;
+
+    background-color: #4a148c;
+    animation-duration: 5s;
+    animation-name: jauge3;
+}
+
+.code-load--bar4{
+    text-align: right;
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size: 1.5rem;
+
+    width: 35%;
+    height: 30px;
+
+    background-color: #1b5e20;
+    animation-duration: 5s;
+    animation-name: jauge4;
+}
+
+.code-load--bar5{
+    text-align: right;
+    font-family: 'Jura', sans-serif;
+
+    color:white;
+    font-size: 1.5rem;
+
+    width: 10%;
+    height: 30px;
+
+    background-color: #880e4f;
+    animation-duration: 5s;
+    animation-name: jauge5;
+}
+
+
+@keyframes jauge1 {
+    from {
+        width: 5%;
+      }
+    
+      to {
+        width: 75%;
+      }
+  }
+
+  @keyframes jauge2 {
+    from {
+        width: 5%;
+      }
+    
+      to {
+        width: 55%;
+      }
+  }
+
+  @keyframes jauge3 {
+    from {
+        width: 5%;
+      }
+    
+      to {
+        width: 40%;
+      }
+  }
+
+  @keyframes jauge4 {
+    from {
+        width: 5%;
+      }
+    
+      to {
+        width: 35%;
+      }
+  }
+
+  @keyframes jauge5 {
+    from {
+        width: 5%;
+      }
+    
+      to {
+        width: 10%;
+      }
+  }
+
+  .article--btn-center{
+    display: flex;
+    justify-content: center;
+}
+
+  .btn {
+    border: none;
+    font-family: 'jura', sans-serif;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 10% 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+      color: white;
+  }
+  
+  .btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+  }
+  
+  .btn-1 {
+    border: 3px solid #fff;
+    color: #fff;
+  }
+  
+  /* Button 1b */
+  .btn-1b:after {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    
+      background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .btn-1b:hover,
+  .btn-1b:active {
+    color:#b71c1c;
+  }
+  
+  .btn-1b:hover:after,
+  .btn-1b:active:after {
+    height: 100%;
+  }
+  

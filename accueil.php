@@ -46,7 +46,7 @@
             showCursor: false,
         });
 
-        ScrollReveal().reveal('.tagline' , { delay:3000 });
+        ScrollReveal().reveal('.tagline' , { delay:1000 });
 
     </script>
 </html>

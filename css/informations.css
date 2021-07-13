@@ -70,7 +70,7 @@ article:nth-child(2n){
 }
 
 .info-perso-tag{
-    text-align: left;
+    text-align: center;
     font-family: 'Jura', sans-serif;
 
     color:white;
@@ -105,65 +105,130 @@ article:nth-child(2n){
     font-family: 'Jura', sans-serif;
 
     color:white;
-    font-size:1rem;
+    font-size:1.3rem;
     text-align: center;
 
     margin: 0;
-    transition: 0.4s all;
-}
 
+
+    transition: 0.4s all;
+    
+}
 .info--reseau-url{
     font-family: 'Jura', sans-serif;
 
     color:gray;
-    font-size:1rem;
+    font-size:1.3rem;
     text-align: center;
 
     margin: 0;
 }
 
- a:hover .info--reseau-name{
-    color: #181717;
+svg{
+
+    height: 65px;
+    width: 65px;
+
+    fill: white;
+    transition: 0.4s all;
+}
+
+  .svg--center{
+
+      display: flex;
+      justify-content: center;
+
+      margin-bottom: 10% ;
+}
+
+ a:hover .color-github{
+    color: white;
     transition: 0.4s all;
  }
 
- a:hover .info--reseau-name:nth-child(2n){
+ a:hover .svg-github{
+    fill: #181717;
+    transition: 0.4s all;
+ }
+
+ a:hover .color-twitter{
     color: #1DA1F2;
     transition: 0.4s all;
  }
 
- a:hover .info--reseau-name:nth-child(3n){
+ a:hover .svg-twitter{
+    fill: #1DA1F2;
+    transition: 0.4s all;
+ }
+
+ a:hover .color-discord{
     color: #7289DA;
     transition: 0.4s all;
  }
 
- a:hover .info--reseau-name:nth-child(4n){
+ a:hover .svg-discord{
+    fill: #7289DA;
+    transition: 0.4s all;
+ }
+
+ a:hover .color-youtube{
     color: #FF0000;
     transition: 0.4s all;
  }
 
- a:hover .info--reseau-name:nth-child(5n){
-    color: purple;
+ a:hover .svg-youtube{
+    fill: #FF0000;
     transition: 0.4s all;
  }
 
- a:hover .info--reseau-name:nth-child(6n){
-    color: #1DA1F2;
+ a:hover .color-instagram{
+    color: #E4405F;
     transition: 0.4s all;
  }
 
- a:hover .info--reseau-name:nth-child(7n){
-    color: #000000;
+ a:hover .svg-instagram{
+    fill: #E4405F;
     transition: 0.4s all;
  }
 
- a:hover .info--reseau-name:nth-child(8n){
+ a:hover .color-twitch{
+    color: #9146FF;
+    transition: 0.4s all;
+ }
+
+ a:hover .svg-twitch{
+    fill: #9146FF;
+    transition: 0.4s all;
+ }
+
+ a:hover .color-steam{
+    color: #106897;
+    transition: 0.4s all;
+ }
+
+ a:hover .svg-steam{
+    fill: #106897;
+    transition: 0.4s all;
+ }
+
+ a:hover .color-spotify{
     color: #1ED760;
     transition: 0.4s all;
  }
 
- a:hover .info--reseau-name:nth-child(9n){
+ a:hover .svg-spotify{
+    fill: #1ED760;
+    transition: 0.4s all;
+ }
+
+
+ a:hover .color-chesscom{
     color: #4F7838;
+    transition: 0.4s all;
+ }
+
+ a:hover .svg-chesscom{
+    fill: #4F7838;
     transition: 0.4s all;
  }
 
@@ -174,14 +239,12 @@ article:nth-child(2n){
 }
 
 .info--reseau-etat{
-    border: 1px solid red;
 
     height: 150px;
     width: 150px;
 
     margin: 1%;
 }
-
 
 /*----------BTN------------*/
 
